@@ -1,6 +1,7 @@
 body {
 	display: flex;
 	flex-direction: column;
+	-webkit-print-color-adjust: exact;
 }
 
 #image-wrapper {
@@ -15,7 +16,7 @@ body {
 
 #a {
 	width: 80px;
-	background: #eee;
+	/*background: #eee;*/
 	border-right: dashed 1px #bbb;
 }
 
