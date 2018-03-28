@@ -5,7 +5,7 @@ function main() {
 			document.getElementById('image').src = url;
 		}
 	}, false);
-	
+
 	document.getElementById('change-background').addEventListener('click', function (e) {
 		let color = document.getElementById('color').value;
 		if(color) {
@@ -14,7 +14,13 @@ function main() {
 			document.getElementById('d').style.backgroundColor = color;
 		}
 	}, false);
-	
+
+	document.getElementById('rotate').addEventListener('click', function (e) {
+		let rotation = document.getElementById('rotation').value;
+		if(color) {
+			document.getElementById('image').style.transform = `rotate(${rotation}deg)`;
+		}
+	}, false);
 }
 
 function autorun() {

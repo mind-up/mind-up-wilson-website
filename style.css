@@ -37,4 +37,5 @@ img {
 	width: 100px;
 	height: auto;
 	margin: auto;
+	max-height: 100px;
 }
