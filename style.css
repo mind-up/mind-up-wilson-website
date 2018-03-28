@@ -8,14 +8,15 @@ body {
 	display: flex;
 	justify-items: center;
 	justify-content: center;
-	border:  dashed 2px #444;
+	border:  dashed 2px #bbb;
 	margin: 2em auto;
+	height: 100px;
 }
 
 #a {
 	width: 80px;
 	background: #eee;
-	border-right: solid 1px #bbb;
+	border-right: dashed 1px #bbb;
 }
 
 #b {
@@ -28,7 +29,7 @@ body {
 
 #d {
 	width: 80px;
-	border-left: solid 1px #bbb;
+	/*border-left: dashed 1px #bbb;*/
 }
 
 img {

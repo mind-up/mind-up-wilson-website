@@ -1,5 +1,20 @@
 function main() {
-	console.log('hello');
+	document.getElementById('load').addEventListener('click', function (e) {
+		let url = document.getElementById('image-url').value;
+		if(url) {
+			document.getElementById('image').src = url;
+		}
+	}, false);
+	
+	document.getElementById('change-background').addEventListener('click', function (e) {
+		let color = document.getElementById('color').value;
+		if(color) {
+			document.getElementById('b').style.backgroundColor = color;
+			document.getElementById('c').style.backgroundColor = color;
+			document.getElementById('d').style.backgroundColor = color;
+		}
+	}, false);
+	
 }
 
 function autorun() {
