@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+#image-wrapper {
+	display: flex;
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	border:  dashed 2px #444;
+	margin: 2em auto;
+}
+
+#a {
+	width: 80px;
+	background: #eee;
+	border-right: solid 1px #bbb;
+}
+
+#b {
+	width: 100px;
+}
+
+#c {
+	width: 100px;
+}
+
+#d {
+	width: 80px;
+	border-left: solid 1px #bbb;
+}
+
+img {
+	width: 100px;
+	height: auto;
+	margin: auto;
+}
